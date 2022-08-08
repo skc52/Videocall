@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 const VideoPlayer = () => {
+    console.log("I am")
     const {
         call,
         callAccepted, 
@@ -35,7 +36,7 @@ const VideoPlayer = () => {
     <Grid container className={classes.gridContainer}>
        
         {
-            stream && (
+             (
                 <Paper className={classes.paper}>
                     <Grid item xs = {12} md = {6}>
                         <Typography variant='h5' gutterBottom>{name||'Name'}</Typography>

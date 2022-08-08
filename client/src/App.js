@@ -36,6 +36,8 @@ const App = () => {
         <AppBar position='static' color='inherit' className={classes.appBar}>
             <Typography variant = "h2" align='center'>Video Chat</Typography>
         </AppBar>
+    
+
 
         <VideoPlayer/>
 
